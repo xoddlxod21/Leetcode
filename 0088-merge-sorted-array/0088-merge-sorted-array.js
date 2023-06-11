@@ -14,13 +14,13 @@ var merge = function(nums1, m, nums2, n) {
         let firstval=nums1[first];
         let secondval=nums2[second];
         if(firstval>secondval){
-            nums1[ith]=firstval
-            ith--
-            first--
+            nums1[ith]=firstval;
+            ith--;
+            first--;
         }else{
-            nums1[ith]=secondval
-            ith--
-            second--
+            nums1[ith]=secondval;
+            ith--;
+            second--;
         }
     }
 };
