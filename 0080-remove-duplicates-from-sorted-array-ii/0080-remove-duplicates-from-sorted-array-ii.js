@@ -8,11 +8,9 @@ var removeDuplicates = function(nums) {
     while(i<nums.length){
         if(nums[i] !==nums[i+2]){
             nums[j]=nums[i];
-            i++;
             j++;
-        }else{
-            i++;
-        } 
+        }
+        i++;
     }
     return j;
 };
